@@ -10,9 +10,9 @@ $fruits = ["Banana", "Apple", "Orange"];
 // $fruits_2 = array("Banana", "Apple", "Orange");
 
 // Print the whole array
-echo '<pre>';
-var_dump($fruits); // print_r
-echo '</pre>';
+// echo '<pre>';
+// var_dump($fruits); // print_r
+// echo '</pre>';
 
 // echo '<pre>';
 // print_r($fruits); // print_r
@@ -126,16 +126,23 @@ $person = [
     'surname' => 'Traversy',
     'age' => 30,
     'hobbies' => ['Tennis', 'Video Games'],
+    'asd' => NULL,
 ];
 // Get element by key
-echo $person['name'].'<br>';
+// echo $person['name'].'<br>';
+// echo $person['surname'].'<br>';
 
 // // Set element by key
 // $person['channel'] = 'TraversyMedia';
+// $person['xyz'] = 'abcd';
+
+// echo '<pre>';
+// print_r($person);
+// echo '</pre>';
 
 // // Check if array has specific key
 // echo '<pre>';
-// var_dump(isset($person['age']));  // Change age into "location"
+// var_dump(isset($person['asd']));  // Change age into "location"
 // echo '</pre>';
 
 // // Print the keys of the array
@@ -145,22 +152,22 @@ echo $person['name'].'<br>';
 
 // // Print the values of the array
 // echo '<pre>';
-// var_dump(array_values($person));
+// print_r(array_values($person));
 // echo '</pre>';
 
 // // Sorting associative arrays by values, by keys
-// ksort($person); // ksort, krsort, asort, arsort
+// asort($person); // ksort, krsort, asort, arsort
 // echo '<pre>';
-// var_dump($person);
+// print_r($person);
 // echo '</pre>';
 
 
 // // Two dimensional arrays
 // $todoItems = [
 //     ['title' => 'Todo1', 'completed' => true],
-//     ['title' => 'Todo 2', 'completed' => false],
+//     ['title' => 'Todo 2', 'completed' => false]
 // ];
 
 // echo '<pre>';
-// var_dump($todoItems);
+// print_r($todoItems);
 // echo '</pre>';
