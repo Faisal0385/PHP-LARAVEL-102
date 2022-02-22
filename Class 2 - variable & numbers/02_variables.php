@@ -17,23 +17,19 @@
 // 1. Declare variables
 
     // Declare a string variable
-        $name = "Faisal A. Salam";
-        // $name = "faisal";
+    $name = "Faisal A. Salam";
+
 
     // Declare a number(int) variable
-        // $age = 36;
-        $age = 36;
+
 
     // Declare a boolean variable
-        $isMale   = true; 
-        $isFemale = false;
 
     // Declare a float variable
-        $height = 1.65;
+ 
 
     // Declare a null variable
-        $salary = null;
-        $abc;
+
 
 // 2. Print the variables. Explain what is concatenation
 
@@ -67,7 +63,6 @@
     // var_dump($name,$age,$isFemale);
     // var_dump($name);
     // var_dump($name, $age, $height);
-
 
 // 6. Change the value of the variable
 

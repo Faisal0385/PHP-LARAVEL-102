@@ -37,10 +37,10 @@ $users = ["Banana", "Apple", "Orange", 'Mango'];
 // foreach ($fruits as $i => $fruit) {
 //     echo $i . ' ' . $fruit . '<br>';
 // }
-$count = 1;
+// $count = 1;
 
 // foreach($users as $i => $user){
-    
+
 //     echo $count ." ". $user . '<br>';
 //     $count++;
 // }
@@ -63,5 +63,5 @@ $person = [
 //     }else{
 //         echo $key . ' ' . $value . '<br>';
 //     }
-    
+
 // }
